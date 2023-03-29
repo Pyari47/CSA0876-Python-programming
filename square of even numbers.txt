@@ -1,0 +1,5 @@
+n=int(input("enter a value:"))
+if n%2==0:
+    print('square of',n,'is',n*n)
+else:
+        print('enter even number')

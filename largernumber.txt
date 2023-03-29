@@ -1,0 +1,5 @@
+num1, num2 = 20 , 30
+if num1>num2:
+  print('the larger value:',num1)
+else:
+  print('the larger value:',num2)

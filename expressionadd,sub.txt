@@ -1,0 +1,16 @@
+a=8
+b=2
+add = a + b
+sub = a - b
+mul = a * b
+div = a/b
+exp = a ** b
+floor = a//b
+mod = a%b
+print('The sum is:',add)
+print('The sub is:',sub)
+print('The multiplication is:',mul)
+print('The division is',div)
+print('The exponent is:',exp)
+print('The floor division is:',floor)
+print('The modulus is:',mod)

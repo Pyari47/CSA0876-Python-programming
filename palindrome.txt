@@ -1,0 +1,8 @@
+def isPalindrome(a):
+    return a == a[::-1]
+a = "Dad"
+ans = isPalindrome(a)
+if ans:
+    print("Given word is a palindrome")
+else:
+    print("Given word is not a palindrome")
