@@ -1,0 +1,4 @@
+a=input("Enter a:")
+b=input("Enter b:")
+power=int(a)**int(b)
+print("power of given number:", power)
