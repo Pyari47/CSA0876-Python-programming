@@ -1,0 +1,3 @@
+message='python is easy to learn'
+print(message)
+
