@@ -1,0 +1,5 @@
+a="apple"
+c=sorted(a)
+d=' '.join(c)
+print(c)
+print(c[::-1])
