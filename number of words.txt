@@ -1,0 +1,4 @@
+a = len("Earth is a beautiful place to live".split())
+print("Number of Words in the given Sentence:",a)
+
+
