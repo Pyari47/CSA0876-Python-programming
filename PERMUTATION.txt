@@ -1,0 +1,7 @@
+import itertools
+a=123
+b=str(a)
+c=itertools.permutations(b)
+for i in c:
+    print(" ".join(i))
+print()
