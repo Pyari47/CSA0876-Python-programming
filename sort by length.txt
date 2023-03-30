@@ -1,0 +1,3 @@
+a=['abc','ab','abcd','abc']
+sorted_list = list(sorted(a, key = len))
+print(sorted_list)
