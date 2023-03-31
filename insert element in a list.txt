@@ -1,0 +1,15 @@
+# Python3 program for Insertion in a list
+# before any element using insert() method
+
+list1 = [ 1, 2, 3, 4, 5, 6 ]
+
+# Element to be inserted
+element = 13
+
+
+# Find index
+index = list1.index(element)
+
+# Insert element at beforeElement
+list1.insert(index, element)
+print(list1)

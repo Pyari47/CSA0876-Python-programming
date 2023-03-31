@@ -1,0 +1,19 @@
+value1 = int (input ("Please enter the first number: "))    
+value2= int (input ("Please enter the second number: "))
+choice = input("Please enter choice ('+','-','*','/'): ")
+if choice == '+':    
+   print (value1, " + ", value2, " = ",value1+value2)    
+    
+elif choice == '-':    
+   print (value1, " - ",value2, " = ",value1-value2)    
+    
+elif choice == '*':    
+   print (value1, " * ",value2, " = ",value1*value2)   
+elif choice == '/':    
+   print (value1, " / ", value2, " = ",value1/value2)    
+else:    
+   print ("This is an invalid input")    
+
+
+
+    

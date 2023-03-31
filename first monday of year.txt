@@ -1,0 +1,6 @@
+import datetime 
+week = input("Enter the Week of the Year :")
+year = input("Enter the Year :")
+first_mon = '1'
+date = datetime.datetime.strptime(year + week + first_mon, "%Y%W%w")
+print(date.date())
