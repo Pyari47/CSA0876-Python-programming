@@ -1,0 +1,30 @@
+SIZE = 50
+def sorting(matrix, n) :
+	temp = [0] * (n * n)
+	k = 0
+	for i in range(0, n) :
+		for j in range(0, n) :
+			temp[k] = matrix[i][j]
+			k += 1
+	temp.sort()
+	k = 0
+	for i in range(0, n) :
+		for j in range(0, n) :
+			matrix[i][j] = temp[k]
+			k += 1
+def printing(matrix, n) :
+	for i in range(0, n) :
+		for j in range( 0, n ) :
+			print(matrix[i][j] , end = " ")	
+		print(" ")
+matrix = [ [1,4,7,11,15],[2,5,8,12,19],[3,6,9,16,22],[10,13,14,17,24],[18,21,23,26,30]]
+n = 5
+
+print( "Original Matrix:")
+printing(matrix, n)
+
+sorting(matrix, n)
+
+print("Matrix After Sorting:")
+printing(matrix,n)
+
